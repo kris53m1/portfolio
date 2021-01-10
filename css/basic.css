@@ -6,8 +6,17 @@ body {
 
 }
 
+header {
+    text-align: center;
+    outline: 1px solid black;
+    background-color: white;
+
+}
+
 footer {
 
     text-align: center;
-    font:
+    font: ;
+    outline: 1px solid black;
+    background-color: white;
 }
