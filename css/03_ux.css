@@ -10,13 +10,26 @@ body {
 
 }
 
+
 /*
+main {
+    margin: 0%;
+    width: 100vw;
+
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+*/
+
 img {
     width: 100%;
 
 
 }
-*/
 
 .prototype_link {
 
