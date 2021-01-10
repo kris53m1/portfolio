@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    background-color: azure;
+
+
+}
+
+img {
+    width: 100%;
+
+
+}
+
+.prototype_link {
+
+    margin-left: 1rem;
+}
