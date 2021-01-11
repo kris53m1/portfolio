@@ -33,7 +33,7 @@ img {
 
 .prototype_link {
 
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .row_pitch {
@@ -50,4 +50,26 @@ img {
 .col_pitch img {
     margin-top: 8px;
     vertical-align: middle;
+}
+
+h2 {
+
+    margin: 1.5rem;
+    outline: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h3 {
+    margin: 1.5rem;
+    outline: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h4 {
+
+    margin-left: 2rem;
 }
