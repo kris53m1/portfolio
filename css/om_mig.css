@@ -66,48 +66,21 @@ p {
     serif;
 */
 }
+
+.row_img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.col_img {
+    flex: 50%;
+    padding: 0 4px;
+}
+
 /*
-.col_img_professionelt {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.img_kristine_professionelt {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-
-
-.col_img_interesser {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.img_kristine_interesser {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.col_img_personligt {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.img_kristine_personligt {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.col_img_personligt img {
+.col_img img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
 }
 */

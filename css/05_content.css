@@ -1,0 +1,23 @@
+h2 {
+    outline: 1px solid black;
+    background-color: white;
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+    /*
+    font-family: 'Crimson Text',
+    serif;
+*/
+}
+
+h3 {
+    outline: 1px solid black;
+    background-color: white;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    /*
+    font-family: 'Cormorant Garamond',
+        serif;
+*/
+}
