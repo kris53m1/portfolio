@@ -21,3 +21,17 @@ h3 {
         serif;
 */
 }
+
+h4 {
+    position: relative;
+    left: 1rem;
+}
+
+.spil_link a {
+
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+    /*    outline: 1px solid black;*/
+
+}
