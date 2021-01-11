@@ -31,6 +31,15 @@ img {
 
 }
 
+/*
+.ide img {
+    position: relative;
+    left: 2rem;
+    right: 2rem;
+
+}
+*/
+
 .prototype_link {
 
     margin-left: 2rem;
@@ -87,5 +96,33 @@ h3 {
 
 h4 {
 
-    text-align: center;
+    position: relative;
+    left: 2rem;
+}
+
+.p1 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+}
+
+.p2 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+
+}
+
+.p3 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+
+}
+
+.p4 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+
 }
