@@ -32,6 +32,14 @@ h4 {
     position: relative;
     left: 2rem;
     bottom: 1rem;
+    font-size: 2rem;
+
     /*    outline: 1px solid black;*/
 
+}
+
+.p1 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
 }
