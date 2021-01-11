@@ -1,3 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    background-color: azure;
+
+
+}
+
+
+/*
+main {
+    margin: 0%;
+    width: 100vw;
+
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+*/
+
+img {
+    width: 100%;
+
+
+}
+
 h2 {
     outline: 1px solid black;
     background-color: white;
@@ -20,4 +53,27 @@ h3 {
     font-family: 'Cormorant Garamond',
         serif;
 */
+}
+
+h4 {
+    position: relative;
+    left: 1rem;
+    /*    font-size: 1.2rem;*/
+}
+
+.p1 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+}
+
+.p2 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+}
+
+.link_website a {
+    position: relative;
+    margin: 0.8rem;
 }
