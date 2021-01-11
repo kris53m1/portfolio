@@ -77,6 +77,28 @@ h4 {
     font-size: 1rem;
 }
 
+.p2 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+
+
+}
+
+.p3 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+
+}
+
+.p4 {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1rem;
+
+}
+
 .row_designdoku {
     display: flex;
     flex-wrap: wrap;
