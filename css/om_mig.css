@@ -42,22 +42,32 @@ h3 {
 
 p {
     margin: 1rem;
-    /*    padding: 1rem;*/
+}
 
-    /*
+
+.om_mig_p {
+    position: relative;
+    margin: 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*    padding: 1rem;*/
+
+/*
     outline: 1px solid black;
     background-color: white;
 */
-    /*
+/*
     font-family: 'Cormorant Garamond',
         serif;
 */
 
-    /*
+/*
     font-family: 'Bodoni Moda',
         serif;
 */
-    /*
+/*
     font-family: 'Bodoni Moda',
     serif;
     font-family: 'Cormorant Garamond',
@@ -65,8 +75,9 @@ p {
     font-family: 'Crimson Text',
     serif;
 */
-}
 
+
+/*
 .row_img {
     display: flex;
     flex-wrap: wrap;
@@ -77,6 +88,7 @@ p {
     flex: 50%;
     padding: 0 4px;
 }
+*/
 
 /*
 .col_img img {

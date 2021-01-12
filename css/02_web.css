@@ -37,6 +37,7 @@ h2 {
     margin: 2rem;
     text-align: center;
     padding: 1rem;
+    font-family: 'Oswald', sans-serif;
     /*
     font-family: 'Crimson Text',
     serif;
@@ -58,6 +59,7 @@ h3 {
 h4 {
     position: relative;
     left: 1rem;
+
     /*    font-size: 1.2rem;*/
 }
 
@@ -76,6 +78,7 @@ h4 {
 .link_website a {
     position: relative;
     margin: 0.8rem;
+    bottom: 1rem;
 }
 
 .row {
