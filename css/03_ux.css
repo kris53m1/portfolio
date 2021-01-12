@@ -99,6 +99,7 @@ h4 {
 
 }
 
+/*
 @media screen and (min-width: 600px) {
 
     .prototype_row {
@@ -135,9 +136,102 @@ h4 {
 
 
 }
+*/
 
-@media screen and (min-width: 800px) {}
+@media screen and (min-width: 800px) {
 
-@media screen and (min-width: 1000px) {}
+    .prototype_row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
 
-@media screen and (min-width: 1200px) {}
+    .col_prototype {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .col_prototype img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    .row_pitch {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .col_pitch {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .col_pitch img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    .ide_row1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .ide_col1 {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .ide_col1 img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    .ide_row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .ide_col {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .ide_col img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .col1 {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .col1 {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    /*
+p2 {
+
+    position: relative;
+    top: 7rem;
+}
+}
+*/
+
+    @media screen and (min-width: 1200px) {}

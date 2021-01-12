@@ -55,6 +55,8 @@ h3 {
     font-family: 'Cormorant Garamond',
         serif;
 */
+
+
 }
 
 .link a {
@@ -70,21 +72,7 @@ h4 {
     /*    font-size: 1.2rem;*/
 }
 
-.redesign_row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
 
-.redesign_col {
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.redesign_col img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
 
 h5 {
 
@@ -126,18 +114,117 @@ h5 {
     font-size: 1.2rem;
 }
 
-.row_tema {
+@media screen and (min-width: 650px) {
+
+    h5 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .link a {
+
+        position: relative;
+        margin: 2rem;
+        font-size: 2rem;
+
+
+    }
+
+    .link_redesign a {
+
+        position: relative;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    .redesign_row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .redesign_col {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .redesign_col img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    .row_tema {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .col_tema {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .col_tema img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+}
+
+/*
+.p1_row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
 
-.col_tema {
+.p1_col {
     flex: 50%;
     padding: 0 4px;
 }
 
-.col_tema img {
+.p1_col {
     margin-top: 8px;
     vertical-align: middle;
+}*/
+
+@media screen and (min-width: 1000px) {
+    .p1_row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .p1_col {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .p1_col {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    .tema_row2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .tema_col2 {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .tema_col2 {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+
 }
