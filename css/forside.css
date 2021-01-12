@@ -6,7 +6,7 @@
 body {
 
     margin: 0;
-    background-image: url(forside.png);
+    background-image: url(forside2.svg);
     /*    background-size: cover;*/
 
     width: 100%;
@@ -17,6 +17,34 @@ body {
     max-width: none;
 
 
+}
+
+h3 {
+
+    font-size: 1rem;
+}
+
+.om_mig {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* her kan alle produkter ikke ses længere - burger menu?*/
+/*@media screen and (max-width: 500px)*/
+
+@media screen and (min-width: 600px) {
+
+    h3 {
+
+        font-size: 1.2rem;
+    }
 }
 
 /*
@@ -36,10 +64,109 @@ img {
 
 }
 
+/*
 h1 {
     position: relative;
     top: 2rem;
     left: 2rem;
     font-size: 3rem;
 
+}*/
+
+
+/*
+h1 {
+    width: 100%;
 }
+*/
+
+/*
+.p {
+    position: relative;
+    top: 0rem;
+    left: 2rem;
+    font-size: 3rem;
+}
+
+.o {
+    position: relative;
+    font-size: 3rem;
+    top: -6rem;
+    left: 4rem;
+
+}
+
+.r {
+    position: relative;
+    font-size: 3rem;
+    top: -13rem;
+    left: 6rem;
+}
+
+.t {
+    position: relative;
+    font-size: 3rem;
+    top: -19rem;
+    left: 8rem;
+
+}
+
+.f {
+
+    position: relative;
+    font-size: 3rem;
+    top: -26rem;
+    left: 10rem;
+}
+
+.o2 {
+    position: relative;
+    font-size: 3rem;
+    top: -32rem;
+    left: 12rem;
+}
+
+.l {
+    position: relative;
+    font-size: 3rem;
+    top: -39rem;
+    left: 14rem;
+}
+
+.i {
+    position: relative;
+    font-size: 3rem;
+    top: -45rem;
+    left: 16rem;
+}
+
+
+.o3 {
+    position: relative;
+    font-size: 3rem;
+    top: -52rem;
+    left: 18rem;
+}
+*/
+
+/*
+h2 {
+    position: relative;
+    top: -50rem;
+    left: 22rem;
+    width: 100%;
+
+}
+*/
+
+/*
+@media screen and (max-width: 400px) {
+
+    h1 {
+        position: relative;
+        left: 2rem;
+    }
+
+    h2 {}
+}
+*/
