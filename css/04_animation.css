@@ -67,7 +67,7 @@ h4 {
     position: relative;
     left: 2rem;
     bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 
     /*    outline: 1px solid black;*/
 
@@ -138,6 +138,14 @@ h4 {
 
 @media screen and (min-width: 800px) {
 
+    .spil_link a {
+
+        position: relative;
+        left: 2rem;
+        bottom: 1rem;
+        font-size: 2rem;
+    }
+
     .assetliste_row {
         display: flex;
         flex-wrap: wrap;
@@ -155,37 +163,37 @@ h4 {
     }
 
 
-.row_designdoku {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
+    .row_designdoku {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
 
-.col_designdoku {
-    flex: 50%;
-    padding: 0 4px;
-}
+    .col_designdoku {
+        flex: 50%;
+        padding: 0 4px;
+    }
 
-.col_designdoku img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
+    .col_designdoku img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
 
-.row_spil {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
+    .row_spil {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
 
-.col_spil {
-    flex: 50%;
-    padding: 0 4px;
-}
+    .col_spil {
+        flex: 50%;
+        padding: 0 4px;
+    }
 
-.col_spil img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
+    .col_spil img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
 }
 
 @media screen and (min-width: 1000px) {
