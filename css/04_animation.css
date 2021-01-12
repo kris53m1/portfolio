@@ -194,6 +194,30 @@ h4 {
         margin-top: 8px;
         vertical-align: middle;
     }
+
+    .elementer_img {
+        position: relative;
+        top: 2rem;
+        /*        padding: 1rem;*/
+    }
+
+    .design_doku_img1 {
+        position: relative;
+        top: 1.2rem;
+        /*        padding: 1rem;*/
+    }
+
+    .design_doku_img2 {
+        position: relative;
+        top: 2.5rem;
+        /*        padding: 1rem;*/
+    }
+
+    .design_doku_img3 {
+        position: relative;
+        top: 3.2rem;
+        /*        padding: 1rem;*/
+    }
 }
 
 @media screen and (min-width: 1000px) {
