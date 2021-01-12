@@ -35,6 +35,7 @@ h3 {
 a {
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 
 }
 
@@ -42,6 +43,13 @@ a {
     position: relative;
     top: 20rem;
     left: 2rem;
+}
+
+.om_mig {
+
+    position: relative;
+    top: 12rem;
+    left: 3rem;
 }
 
 .pumpe_sprite {
@@ -52,6 +60,28 @@ a {
     width: 10rem;
     height: 21rem;
 
+}
+
+.spray_container {
+
+    position: relative;
+    top: -5rem;
+    left: 11rem;
+}
+
+.spray_sprite {
+    background-image: url(SVG/fresh_spray.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 7rem;
+    height: 23rem;
+}
+
+.tema_2 {
+
+    position: relative;
+    top: 12rem;
+    left: 2rem;
 }
 
 /* her kan alle produkter ikke ses længere - burger menu?*/
