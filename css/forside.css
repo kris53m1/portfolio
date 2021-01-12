@@ -11,6 +11,7 @@ html {
 */
 
 body {
+    padding: 0;
     margin: 0;
     background-color: azure;
 
@@ -21,41 +22,104 @@ body {
     width: 100%;
     height: 100vh;
     background-position: 25% 10%;
+    max-width: none;
+
 
 
 }
 
+.row {
+
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+
+
+}
+
+.col {
+    flex-basis: 50%;
+
+}
+
+h1 {
+
+    color: black;
+    font-size: 3rem;
+
+
+}
+
+h2 {
+    color: black;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.pics {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+/*
+.spray_container {
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+
+
+
+}
+
+.spray_sprite {
+    background-image: url(SVG/fresh_spray.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 9rem;
+    height: 29rem;
+
+}
+*/
+
+/*
 .baggrund {
     position: absolute;
     margin: 0;
-    background-image: url(forside3.png);
+    background-image: url(forsideudenspray.png);
     background-size: cover;
 
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-position: 25% 10%;
-    max-width: none;
+     background-position: 25% 10%;
+      max-width: none;
 
 
-    /*
-    width: 100%;
-    height: 56.25vw;
-*/
-    /*    height: 100vw;*/
+
 }
+*/
 
+/*
 .liste_links {
     position: fixed;
     font-size: 1.2rem;
     top: 24.5rem;
     left: 11.4rem;
 
-    /*
+
     right: 20vw;
     bottom: 20vw;
-*/
+
 }
+*/
 
 /*
 .liste_links ul {
