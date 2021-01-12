@@ -2,27 +2,123 @@
     box-sizing: border-box;
 }
 
+/*
+html {
+
+    height: 100%;
+
+}
+*/
 
 body {
+    margin: 0;
+    /*
+    background-image: url(forside3.png);
+    background-size: cover;
+*/
+    width: 100%;
+    background-position: 25% 10%;
+}
 
+.baggrund {
+    margin: 0;
+    background-image: url(forside3.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /*    height: 100vw;*/
+}
+
+
+
+/*
+body {
+    position: absolute;
     margin: 0;
     background-image: url(forside2.svg);
-    /*    background-size: cover;*/
-
-    width: 100%;
-    height: 100vh;
 
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vw;
     background-position: 25% 10%;
-    max-width: none;
+
+
+
 
 
 }
+*/
 
 h3 {
 
     font-size: 1rem;
 }
+
+
+/*
+.produkt_container {
+    position: relative;
+
+    top: 10vw;
+    left: 10vw;
+}
+*/
+
+/*
+.pumpe_sprite {
+    position: relative;
+    top: 23vw;
+    left: 0vw;
+    background-image: url(SVG/fresh_pumpe_hvid_1.svg);
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 10vw;
+}
+
+.spray_sprite {
+    position: relative;
+    top: -2vw;
+    left: 9vw;
+    background-image: url(SVG/fresh_spray.svg);
+    background-repeat: no-repeat;
+    height: 22vw;
+    width: 8vw;
+}
+
+.cremer_sprite {
+    position: relative;
+    top: -10vw;
+    left: 9vw;
+    background-image: url(SVG/cremer.svg);
+    background-repeat: no-repeat;
+    height: 12vw;
+    width: 13vw;
+}
+
+
+.lamer_sprite {
+    position: relative;
+    top: -31vw;
+    left: 17vw;
+    background-image: url(SVG/lamer.svg);
+    background-repeat: no-repeat;
+    height: 19vw;
+    width: 10vw;
+}
+
+.glossier_sprite {
+    position: relative;
+    top: -43vw;
+    left: -23vw;
+    background-image: url(SVG/glossier.svg);
+    background-repeat: no-repeat;
+    height: 14vw;
+    width: 7vw;
+
+}
+*/
 
 /*
 .om_mig {
@@ -39,19 +135,24 @@ a {
 
 }
 
+/*
 .pumpe_container {
     position: relative;
-    top: 20rem;
-    left: 2rem;
+    top: 45rem;
+    left: 0rem;
 }
+*/
 
+/*
 .om_mig {
 
     position: relative;
     top: 12rem;
     left: 3rem;
 }
+*/
 
+/*
 .pumpe_sprite {
 
     background-image: url(SVG/fresh_pumpe_hvid_1.svg);
@@ -61,12 +162,14 @@ a {
     height: 21rem;
 
 }
+*/
 
+/*
 .spray_container {
 
     position: relative;
-    top: -5rem;
-    left: 11rem;
+    top: 18rem;
+    left: 9rem;
 }
 
 .spray_sprite {
@@ -76,16 +179,88 @@ a {
     width: 7rem;
     height: 23rem;
 }
+*/
 
+/*
 .tema_2 {
 
     position: relative;
     top: 12rem;
     left: 2rem;
 }
+*/
 
-/* her kan alle produkter ikke ses længere - burger menu?*/
-/*@media screen and (max-width: 500px)*/
+/*
+.cremer_container {
+
+    position: relative;
+    top: 9rem;
+    left: 8rem;
+}
+
+.cremer_sprite {
+    background-image: url(SVG/cremer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10rem;
+    height: 15rem;
+}
+
+.forside {
+    position: relative;
+    top: ;
+    left: ;
+}
+
+.lamer_container {
+    position: relative;
+    top: -10rem;
+    left: 18rem;
+}
+
+.lamer_sprite {
+    background-image: url(SVG/lamer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5.5rem;
+    height: 16rem;
+
+}
+*/
+
+
+/*
+.glossier_container {
+
+    position: relative;
+
+    top: -20rem;
+    left: 23rem;
+
+}
+*/
+
+/*
+.glossier_sprite {
+    background-image: url(SVG/glossier.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4rem;
+    height: 12rem;
+    top: -20rem;
+    left: 23rem;
+    position: relative;
+}
+
+.produkt_container {
+    position: relative;
+    bottom: 26rem;
+}
+*/
+
+
+
+/*@media screen and (max-width: 500px)
 
 @media screen and (min-width: 600px) {
 
