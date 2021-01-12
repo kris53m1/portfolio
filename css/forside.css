@@ -36,6 +36,22 @@ a {
 
 }
 
+.pumpe_container {
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+
+.pumpe_sprite {
+
+    background-image: url(SVG/fresh_pumpe_svg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10rem;
+    height: 30rem;
+
+}
+
 /* her kan alle produkter ikke ses længere - burger menu?*/
 /*@media screen and (max-width: 500px)*/
 
