@@ -28,6 +28,100 @@ body {
 
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.portfolio {
+
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar_list ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbar_list li {
+
+    list-style: none;
+
+}
+
+.navbar_list li a {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar_list li:hover {
+    background-color: #CE6464;
+}
+
+.toggle_button {
+
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle_button bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width:400px) {
+    .toggle_button {
+        display: flex;
+    }
+
+    .navbar_list {
+        display: none;
+    }
+}
+
+/*
+.nav_bar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+}*/
+
 .row {
 
     display: flex;
@@ -59,6 +153,7 @@ h2 {
     line-height: 2rem;
 }
 
+/*
 .pics {
     width: 200px;
     height: 230px;
@@ -74,8 +169,9 @@ h2 {
     position: relative;
     right: -5rem;
 }
+*/
 
-
+/*
 .tema2 {
     background-image: url(nav_tema2.png);
 }
@@ -96,7 +192,7 @@ h2 {
 
 .pics: hover {
     transform: translateY(-10px);
-}
+}*/
 
 .row a {
 
@@ -108,6 +204,7 @@ h2 {
     margin: 10px;
 }
 
+/*
 button {
 
     font-family: monospace;
@@ -119,6 +216,130 @@ button {
 
     border-radius: 6px;
 
+}
+*/
+
+/*
+@media screen and (max-width: 300px) {
+
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    position: relative;
+    right: -5rem;
+
+    button {
+
+        font-family: monospace;
+        color: black;
+        background-color: white;
+        padding: 1px;
+
+        outline: none;
+
+        border-radius: 1px;
+
+    }
+}
+*/
+
+/*
+@media screen and (min-width: 600px) {
+    .pics {
+        width: 140px;
+        height: 170px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        position: relative;
+        right: -5rem;
+    }
+
+}
+*/
+
+/*
+@media screen and (min-width: 800px) {
+    .pics {
+        width: 200px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        position: relative;
+        right: -5rem;
+    }
+*/
+
+/*
+    button {
+
+        font-family: monospace;
+        color: black;
+        background-color: white;
+        padding: 4px;
+        font-size: 0.2rem;
+        outline: none;
+
+        border-radius: 6px;
+
+    }
+*/
+}
+
+/*
+@media screen and (min-width: 1000px) {
+    .pics {
+        width: 200px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        position: relative;
+        right: -5rem;
+    }
+*/
+
+/*
+    button {
+
+        font-family: monospace;
+        color: black;
+        background-color: white;
+        padding: 4px;
+        font-size: 0.2rem;
+        outline: none;
+
+        border-radius: 6px;
+
+    }
+*/
 }
 
 /*
@@ -287,7 +508,7 @@ h3 {
 a {
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+
 
 }
 
