@@ -12,22 +12,61 @@ html {
 
 body {
     margin: 0;
-    /*
+    background-color: azure;
+
+
     background-image: url(forside3.png);
     background-size: cover;
-*/
+
     width: 100%;
+    height: 100vh;
     background-position: 25% 10%;
+
+
 }
 
 .baggrund {
+    position: absolute;
     margin: 0;
     background-image: url(forside3.png);
     background-size: cover;
+
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 25% 10%;
+    max-width: none;
+
+
+    /*
+    width: 100%;
+    height: 56.25vw;
+*/
     /*    height: 100vw;*/
 }
+
+.liste_links {
+    position: fixed;
+    font-size: 1.2rem;
+    top: 24.5rem;
+    left: 11.4rem;
+
+    /*
+    right: 20vw;
+    bottom: 20vw;
+*/
+}
+
+/*
+.liste_links ul {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 66vw;
+    left: 25.4vw;
+
+
+}
+*/
 
 
 
