@@ -28,6 +28,14 @@ body {
 
 }
 
+/*
+font-family: 'Old Standard TT', serif;
+font-family: 'Prata', serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Vidaloka', serif;
+font-family: 'Volkhov', serif;
+*/
+
 
 .navbar {
     display: flex;
@@ -36,12 +44,14 @@ body {
     background-color: white;
     color: black;
     outline: 1px solid black;
+    font-family: 'Volkhov', serif;
 
 }
 
 .brand-title {
     font-size: 1.5rem;
     margin: .5rem;
+    font-family: 'Volkhov', serif;
 
 }
 
@@ -49,11 +59,13 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    font-family: 'Volkhov', serif;
 
 }
 
 .navbar-links li {
     list-style: none;
+    font-family: 'Volkhov', serif;
 }
 
 .navbar-links li a {
@@ -61,6 +73,7 @@ body {
     color: black;
     padding: 1rem;
     display: block;
+    font-family: 'Volkhov', serif;
 }
 
 .navbar-links li:hover {
@@ -262,6 +275,8 @@ h1 {
 
     color: black;
     font-size: 3rem;
+    font-family: 'Staatliches', cursive;
+
 
 
 
@@ -271,6 +286,9 @@ h2 {
     color: black;
     font-size: 1.8rem;
     line-height: 2rem;
+    font-family: 'Vidaloka', serif;
+    font-family: 'Staatliches', cursive;
+    /*    font-family: 'Old Standard TT', serif;*/
 }
 
 /*

@@ -16,6 +16,14 @@ img {
 
 }
 
+/*
+font-family: 'Old Standard TT', serif;
+font-family: 'Prata', serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Vidaloka', serif;
+font-family: 'Volkhov', serif;
+*/
+
 h2 {
     outline: 1px solid black;
     background-color: white;
@@ -23,6 +31,10 @@ h2 {
     margin-right: 4rem;
     text-align: center;
     padding: 1rem;
+    font-family: 'Prata', serif;
+    /*    font-family: 'Old Standard TT', serif;*/
+
+
     /*
     font-family: 'Crimson Text',
     serif;
@@ -36,6 +48,9 @@ h3 {
     margin-right: 2.8rem;
     text-align: center;
     padding: 1rem;
+    font-family: 'Vidaloka', serif;
+
+    /*    font-family: 'Volkhov', serif;*/
     /*
     font-family: 'Cormorant Garamond',
         serif;
@@ -44,6 +59,11 @@ h3 {
 
 p {
     margin: 1rem;
+    /*    font-family: 'Old Standard TT', serif;*/
+    /*    font-family: 'Prata', serif;*/
+    font-family: 'Volkhov', serif;
+
+
 }
 
 
